@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+  display: flex;
+  flex-direction: column;  
+  gap:20px;
+  background-color:rgb(233, 248, 243) ;
+
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(2, 18, 54);
+}
+nav a{
+    text-decoration: none;
+    padding:15px;
+    color: rgb(189, 216, 89);
+}
+nav a:hover{
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    color: rgb(4, 80, 119);
+}
+.texte-accueil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.texte-accueil p {
+    border: 1px solid grey;
+    border-radius: 15px;
+    min-width: 750px;
+    max-width: 750px;
+    padding:15px;
+    font-size: 20px;
+    line-height: 1.775rem;  
+}
+
+.article h3{
+    text-align: center;
+    color: rgb(2, 18, 54);
+}
+.article p{
+    padding:10px;
+}
+.article{
+    border: 1px solid grey;
+    border-radius: 10px;
+    max-width: 90ch;
+    padding:15px;
+    line-height: 1.775rem;  
+    font-size: 18px;  
+}
+.liste-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.auteur{
+    color: rgb(224, 107, 72);
+    float:right;
+}
+/* formulaire */
+.formulaireRecherche,.formulaireAjout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.formulaire-recherche{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+}
+
+.champ-recherche{
+    height: 25px;
+    border:none;
+    background-color: rgb(199, 201, 202);
+    border-radius: 5px;
+}
+.btn-submit{
+    background-color:  rgb(2, 18, 54) ;
+    color:rgb(189, 216, 89);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-submit:hover{
+    color: rgb(2, 18, 54);
+    background-color: rgb(189, 216, 89);
+}
+
+.formulaireAjout form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 15px;
+    max-width: 500px;
+}
+.formulaireAjout textarea{
+    height: 300px;
+}
+
